@@ -1,0 +1,27 @@
+{
+  "name": "fusionauth",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "install": "gulp copy-modules"
+  },
+  "dependencies": {
+    "@mdi/font": "^4.5.95",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "es6-promise": "^4.2.8",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "node-sass-middleware": "0.11.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3",
+    "vuetify": "^2.1.9",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

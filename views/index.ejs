@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> hello</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/vuetify.min.css' />
+    <link  rel="stylesheet" href='https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css'>
+
+
+  </head>
+  <body>
+ <div id="app">
+
+ <root-layout></root-layout>
+  
+
+</div>
+  </body>
+
+  <script type="text/javascript" src="javascripts/vue.min.js"></script>
+  <script type="text/javascript" src="javascripts/vuetify.min.js"></script>
+  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.1.3/vue-router.js"></script> -->
+  <script type="text/javascript" src="components/root-layout.js"></script>
+  <script type="text/javascript" src="components/organization.js"></script>
+  <script type="text/javascript" src="components/router/router.js"></script>
+ 
+
+
+  <script type="text/javascript">
+   var app = new Vue({
+  el: '#app',
+  vuetify: new Vuetify(),
+  components: {
+    'root-layout': rootLayout,
+    }
+})
+
+  </script>
+
+</html>
