@@ -9,14 +9,36 @@ const AppBar=Vue.component('appbar', {
       app
       
     >
-    <v-app-bar-nav-icon @click.stop="changeDrawerState()" />
+    <v-btn
+        icon
+        large
+      >
+        <v-avatar
+          size="32px"
+          item
+        >
+
+        KF
+         </v-avatar>
+      </v-btn>
+
+  
 
       <v-toolbar-title
         style="width: 300px"
         class="ml-0 pl-4"
       >
-        <span class="hidden-sm-and-down">Google Contacts</span>
+
+      
+      <span class="hidden-sm-and-down">
+        
+      <v-img :aspect-ratio="16/9" src="../../images/kloudform.png" height="30px" > 
+          </v-img>
+      
+      </span>
+
       </v-toolbar-title>
+      <v-spacer />
       <v-text-field
         flat
         solo-inverted
@@ -32,19 +54,7 @@ const AppBar=Vue.component('appbar', {
       <v-btn icon>
         <v-icon>mdi-bell</v-icon>
       </v-btn>
-      <v-btn
-        icon
-        large
-      >
-        <v-avatar
-          size="32px"
-          item
-        >
-          <v-img
-            src="https://cdn.vuetifyjs.com/images/logos/logo.svg"
-            alt="Vuetify"
-          /></v-avatar>
-      </v-btn>
+      
     </v-app-bar>
   
 

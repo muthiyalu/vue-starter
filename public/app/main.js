@@ -32,7 +32,7 @@ const router = new VueRouter({
 
 
 new Vue({
-    el: '#app', // This should be the same as your <div id=""> from earlier.
+    el: '#app', 
     vuetify: new Vuetify(),
     router,
     store,
@@ -40,7 +40,7 @@ new Vue({
         'layout': Layout,
     },   
     created () {
-      this.$vuetify.theme.dark = true
+      this.$vuetify.theme.dark = false
     },
     template: MainTemplate
 });

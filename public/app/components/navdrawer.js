@@ -37,15 +37,15 @@ const NavDrawer=Vue.component('navdrawer', {
       >
         <v-list-item link>
           <v-list-item-icon>
-            <v-icon>mdi-folder</v-icon>
+            <v-icon>mdi-brain</v-icon>
           </v-list-item-icon>
-          <v-list-item-title>My Files</v-list-item-title>
+          <v-list-item-title>Knowledge Agent</v-list-item-title>
         </v-list-item>
         <v-list-item link>
           <v-list-item-icon>
-            <v-icon>mdi-account-multiple</v-icon>
+            <v-icon>mdi-security</v-icon>
           </v-list-item-icon>
-          <v-list-item-title>Shared with me</v-list-item-title>
+          <v-list-item-title>Security Agent</v-list-item-title>
         </v-list-item>
         <v-list-item link>
           <v-list-item-icon>
